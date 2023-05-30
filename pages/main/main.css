@@ -1,0 +1,6 @@
+.main{
+    display: flex;
+    background-color: azure;
+    width: 100%;
+    min-height: 40%;
+}
