@@ -1,4 +1,6 @@
-@import url("/CSS_meme/pages/wrapper.css");
-@import url("/CSS_meme/pages/normalize.css");
-@import url("/CSS_meme/pages/header/header.css");
-@import url("/CSS_meme/pages/main/main.css");
+@import url("./pages/wrapper.css");
+@import url("./pages/normalize.css");
+@import url("./pages/header/header.css");
+@import url("./pages/main/main.css");
+@import url("./pages/main/meme-item/meme-string/meme-string.css");
+@import url("./pages/main/meme-item/meme-item.css");

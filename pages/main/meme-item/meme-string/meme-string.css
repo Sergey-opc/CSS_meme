@@ -1,0 +1,24 @@
+.meme-string{
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    border-top: 2px solid rgb(195, 127, 203);
+    height: 100px;
+    padding: 20px 0;
+    width: 100%;
+    margin: 0;
+}
+
+.meme-string h2{
+    font-size: 40px;
+    margin: 0;
+
+}
+
+.plus {
+	width: 30px;
+	height: 30px;
+	background: linear-gradient(to bottom, transparent 35%, #000 35%, #000 65%, transparent 65%), linear-gradient(to right, transparent 35%, #000 35%, #000 65%, transparent 65%);
+}
