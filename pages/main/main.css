@@ -1,6 +1,7 @@
 .main{
     display: flex;
     box-sizing: border-box;
+    flex-direction: column;
     width: 100%;
     min-height: 300px;
 }
