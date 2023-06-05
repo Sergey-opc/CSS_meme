@@ -1,15 +1,8 @@
 .meme-img{
+    overflow: hidden;
     display: flex;
     opacity: 0;
     justify-content: center;
-    margin-bottom: 25px;
-}
-
-.meme-img:hover{
-    opacity: 1;
-    transition: all ease-out 0.5s;
-}
-
-.meme-img__image{
-
+    transition: 0.5s;
+    max-height: 0;
 }
