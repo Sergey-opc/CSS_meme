@@ -1,21 +1,26 @@
 .meme-item {
     overflow: hidden;
     display: flex;
-    box-sizing: border-box;
     flex-direction: column;
     width: 100%;
-    max-height: 120px;
-    transition: 0.5s;
+    min-height: 100px;
+    max-height: 100px;
+    transition: 1s;
+    padding-bottom: 25px;
 }
 
 
 .meme-item:hover {
-    max-height: 100%;
+    max-height: 70%;
+    transition: 1s;
 }
 
 .meme-item:hover .meme-img{
+    transition: 1s;
+    max-height: 80%;
     opacity: 1;
-    transition: 0.5s;
-    max-height: 100%;
-    margin-bottom: 25px;
+}
+
+.meme-item:focus .meme-img{
+    height: 80%;
 }
