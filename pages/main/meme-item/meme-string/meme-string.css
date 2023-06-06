@@ -11,7 +11,7 @@
     margin: 0;
 }
 
-.meme-img>.meme-string:focus {
+.meme-img>.meme-string:focus + label{
     min-height: 80%;
 }
 
