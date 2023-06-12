@@ -4,5 +4,6 @@
     opacity: 0;
     justify-content: center;
     transition: 1s;
+    height: auto;
     max-height: 0;
 }
